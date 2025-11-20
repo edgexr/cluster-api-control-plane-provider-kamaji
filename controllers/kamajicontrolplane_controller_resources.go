@@ -17,7 +17,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 	ctrllog "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
 )
 
 var ErrEnqueueBack = errors.New("enqueue back")

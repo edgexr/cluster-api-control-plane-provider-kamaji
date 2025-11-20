@@ -7,7 +7,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	ecr "github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
+	ecr "github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
 )
 
 const (

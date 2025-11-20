@@ -9,7 +9,7 @@ import (
 	kamajiv1alpha1 "github.com/clastix/kamaji/api/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
 )
 
 const (

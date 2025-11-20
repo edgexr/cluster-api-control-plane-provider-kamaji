@@ -32,9 +32,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	kcpv1alpha1 "github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/features"
+	kcpv1alpha1 "github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/features"
 )
 
 // KamajiControlPlaneReconciler reconciles a KamajiControlPlane object.

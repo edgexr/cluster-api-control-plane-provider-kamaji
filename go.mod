@@ -1,4 +1,4 @@
-module github.com/clastix/cluster-api-control-plane-provider-kamaji
+module github.com/edgexr/cluster-api-control-plane-provider-kamaji
 
 go 1.25
 

@@ -6,7 +6,7 @@ package indexers
 import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	kcpv1alpha1 "github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	kcpv1alpha1 "github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
 )
 
 const (

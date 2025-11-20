@@ -8,7 +8,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
 )
 
 func TrackConditionType(conditions *[]metav1.Condition, conditionType v1alpha1.KamajiControlPlaneConditionType, observedGeneration int64, fn func() error) { //nolint:varnamelen

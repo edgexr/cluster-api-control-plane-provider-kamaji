@@ -18,8 +18,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	kcpv1alpha1 "github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
+	kcpv1alpha1 "github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
 )
 
 var ErrUnsupportedCertificateSAN = errors.New("a certificate SAN must be made of host only with no port")

@@ -13,8 +13,8 @@ import (
 	"k8s.io/client-go/util/retry"
 	ctrllog "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
 )
 
 func (r *KamajiControlPlaneReconciler) handleFinalizer(ctx context.Context, kcp *v1alpha1.KamajiControlPlane) error {

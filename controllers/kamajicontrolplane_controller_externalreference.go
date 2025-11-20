@@ -11,9 +11,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
-	ecr "github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/pkg/features"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	ecr "github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/externalclusterreference"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/pkg/features"
 )
 
 const (

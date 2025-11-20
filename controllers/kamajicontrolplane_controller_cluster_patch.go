@@ -18,7 +18,7 @@ import (
 	"sigs.k8s.io/cluster-api/util/patch"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/clastix/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
+	"github.com/edgexr/cluster-api-control-plane-provider-kamaji/api/v1alpha1"
 )
 
 func (r *KamajiControlPlaneReconciler) controlPlaneEndpoint(controlPlane *v1alpha1.KamajiControlPlane, statusEndpoint string) (string, int64, error) {
